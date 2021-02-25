@@ -27,6 +27,6 @@ describe("Surveys", () => {
 
         const response = await request(app).get("/surveys");
         
-        expect(response.body.lenght).toBe(1);
+        expect(response.body.lenght).toBe(2);
     }); */
 });
